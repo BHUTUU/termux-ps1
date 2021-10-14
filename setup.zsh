@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+chsh -s zsh
 CWD=$(pwd)
 #<<<------colour substitution by variables------>>>
 C0="\e[1;30m" B0="\e[40m"

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+chsh -s bash
 CWD=$(pwd)
 #<<<------colour substitution by variables------>>>
 C0="\e[1;30m" B0="\e[40m"
