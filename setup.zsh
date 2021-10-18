@@ -74,4 +74,4 @@ printf "${C2}[${C1}!${C2}]${C1}Please choose a valid option!!${R0}\n"
 echo
 fi
 done
-printf "${C1}[${C2}✓${C1}]${C3}Done!! just reopen your termux or just type 'bash' and enjoy ;)${R0}\n"
+printf "${C1}[${C2}✓${C1}]${C3}Done!! just reopen your termux or just type 'zsh' and enjoy ;)${R0}\n"
