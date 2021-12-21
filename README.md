@@ -6,3 +6,6 @@ This is a configuration for termux ps1 that i personally use!
 # Zsh shell:
 
 ```apt install zsh -y && source <(curl -fsSL "https://git.io/JKZiF")```
+# fish shell:
+
+```source <(curl -fsSL "https://git.io/JDjff")```
