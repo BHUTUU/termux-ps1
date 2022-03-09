@@ -23,6 +23,9 @@ runSetup() {
     apt install fish -y
   fi
   chsh -s fish
+  if [ ! -d $HOME/.config/fish ]; then
+    mkdir -p $HOME/.config/fish > /dev/null 2>&1
+  fi
 cat <<- CONF > $HOME/.config/fish/config.fish
 function fish_prompt
     set -l git_branch (git branch 2>/dev/null | sed -n '/\* /s///p')
